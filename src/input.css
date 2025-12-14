@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Figtree;
+    src: url(/src/fonts/static/Figtree-ExtraBold.ttf),
+         url(/src/fonts/static/Figtree-Medium.ttf);
+}
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    @font-face {
+        font-family: Figtree;
+        src: url(/src/fonts/static/Figtree-ExtraBold.ttf),
+             url(/src/fonts/static/Figtree-Medium.ttf);
+    }
+}
